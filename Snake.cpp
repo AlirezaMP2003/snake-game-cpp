@@ -2,8 +2,6 @@
 #include<conio.h>
 using namespace std;
 
-int r;
-
 const int mapWidth = 20;
 const int mapHeight = 20;
 const int mapSize = mapWidth * mapHeight;
