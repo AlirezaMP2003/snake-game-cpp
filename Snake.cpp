@@ -16,6 +16,7 @@ int food = 4;
 
 bool running;
 
+// declaration
 void selectLevel();
 void run();
 void initMap();
@@ -104,6 +105,7 @@ void initMap(){
 	
 }
 
+// making food for snake
 void generateFood(){
 	
 	int x , y = 0;
@@ -119,6 +121,9 @@ void generateFood(){
 	
 }
 
+// 	'w'
+//  'a'     'd'
+// 	's'
 void changeDirection(char key){
 	
 	switch(key){
@@ -197,6 +202,7 @@ void printMap(){
 	
 }
 
+// creating wall with 'X' character and body of snake with 'O' character.
 char getMapValue(int value){
 	
 	if (value > 0) return 'o';
